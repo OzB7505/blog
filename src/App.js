@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
+import Navbar from './components/Navbar.js'
 
 function App() {
   return (
     <div>
-      <header>
-        [[ SITE NAV GOES HERE ]]
-      </header>
+      <Navbar/>
       <div class="container">
         <h1 class="section-title">Recent Photos (6)</h1>
         <ul class="cards">
